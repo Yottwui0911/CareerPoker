@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerPoker", "CareerPoker\CareerPoker.csproj", "{5B681FCF-D01B-4BF8-95A3-754E2487EF42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardController", "CardController\CardController.csproj", "{339BAE65-4B12-4B4F-BD55-54D0047281D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5B681FCF-D01B-4BF8-95A3-754E2487EF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B681FCF-D01B-4BF8-95A3-754E2487EF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B681FCF-D01B-4BF8-95A3-754E2487EF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339BAE65-4B12-4B4F-BD55-54D0047281D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339BAE65-4B12-4B4F-BD55-54D0047281D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339BAE65-4B12-4B4F-BD55-54D0047281D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339BAE65-4B12-4B4F-BD55-54D0047281D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
