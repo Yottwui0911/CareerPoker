@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CareerPoker</RootNamespace>
     <AssemblyName>CareerPoker</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,11 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\CareerPokerController.cs" />
+    <Compile Include="Model\CareerPokerPlayer\BlackJackPlayerBase.cs" />
+    <Compile Include="Model\CareerPokerPlayer\Opponent.cs" />
+    <Compile Include="Model\CareerPokerPlayer\User.cs" />
+    <Compile Include="Model\CareerPokerField.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CardController\CardController.csproj">
+      <Project>{339bae65-4b12-4b4f-bd55-54d0047281d2}</Project>
+      <Name>CardController</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
